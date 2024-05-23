@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65ffda29-35de-4f47-933e-dea74466f64c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StreamsandLambdas/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StreamsandLambdas/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StreamsandLambdas/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StreamsandLambdas/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StreamsandLambdas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StreamsandLambdas/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -37,6 +41,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.Mains.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -78,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716476511566</updated>
-      <workItem from="1716476512713" duration="2439000" />
+      <workItem from="1716476512713" duration="4562000" />
     </task>
     <servers />
   </component>

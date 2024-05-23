@@ -6,5 +6,6 @@ public class Main {
         Animal myDog = new Dog();
         myDog.makesSound();
         myDog.sleep();
+        myDog.walks();
     }
 }
