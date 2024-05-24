@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="65ffda29-35de-4f47-933e-dea74466f64c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StreamsandLambdas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StreamsandLambdas/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FunctionalInterfaces/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FunctionalInterfaces/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +58,11 @@
       <recent name="java.lang" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="v" />
+    </option>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <module name="Advanced Prgramming Concepts" />
@@ -82,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1716476511566</updated>
       <workItem from="1716476512713" duration="4562000" />
-      <workItem from="1716520429183" duration="4251000" />
+      <workItem from="1716520429183" duration="5488000" />
     </task>
     <servers />
   </component>
