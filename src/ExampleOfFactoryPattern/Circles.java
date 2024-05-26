@@ -1,15 +1,14 @@
 package ExampleOfFactoryPattern;
 
-public class Circle implements Shape {
+public class Circles extends Shape1 {
     private double radius;
 
-    public Circle(double radius) {
+    public Circles(double radius){
         this.radius = radius;
     }
-
     @Override
-    public Shape create() {
-        return new Circle(1.0);
+    Shape1 create() {
+        return new Circles(8.0);
     }
 
     public double getRadius() {
