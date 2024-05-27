@@ -4,3 +4,4 @@ package lambdas;
 public interface SampleInterface {
     void fun();
 }
+

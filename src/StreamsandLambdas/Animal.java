@@ -1,4 +1,5 @@
 package StreamsandLambdas;
+
 abstract class Animal {
 
     //For any Abstract class it can contain one or many abstract methods, as well as one or more general methods
@@ -11,7 +12,7 @@ abstract class Animal {
         System.out.println("The animal is sleeping");
     }
 
-    public void Brushes(){
+    public void Brushes() {
         System.out.println("Animals don't brush");
     }
 }

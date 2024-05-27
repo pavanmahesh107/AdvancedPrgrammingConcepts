@@ -8,7 +8,7 @@ public class Squares extends Shape1{
     }
     @Override
     Shape1 create() {
-        return new Squares(18);
+        return new Squares(18); // Returning a new Square object with a default side length
     }
 
     public int getSide() {
