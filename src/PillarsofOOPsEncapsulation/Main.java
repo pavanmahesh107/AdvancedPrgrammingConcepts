@@ -25,9 +25,18 @@ public class Main {
 //        System.out.println(account.getBalance());
 
 
-        // 3. Read-Only Example
-        ReadonlyExample readonlyExample = new ReadonlyExample(18);
-        System.out.println( readonlyExample.getId());
+//        // 3. Read-Only Example
+//        ReadonlyExample readonlyExample = new ReadonlyExample(18);
+//        System.out.println( readonlyExample.getId());
+
+         // 4 .Encapsulation with Inheritance
+        //The private fields in the base class encapsulate the implementation details,
+        // hiding them from both external classes and derived classes.
+        // This allows the base class to change its internal implementation without affecting the derived classes,
+        // as long as the protected methods' interface remains consistent.
+        Derived derived = new Derived();
+        derived.setSecret("Encapsulation with Inheritance");
+        derived.revialSecret();
 
     }
 }

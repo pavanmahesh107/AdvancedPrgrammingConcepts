@@ -1,5 +1,7 @@
 package PillarsofOOPsEncapsulation;
 
+// 3. Read-Only Example
+
 //Encapsulation is followed by private fields and providing only getter methods, not setter methods.
 //Thus ensuring that the state of the object cannot be modified after it is initialized.
 public class ReadonlyExample {

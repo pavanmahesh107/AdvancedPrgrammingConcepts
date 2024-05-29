@@ -1,6 +1,6 @@
 package PillarsofOOPsEncapsulation;
 
-//Sample Validation
+// 2. Simple Validation
 public class Account {
 
     //We declared the Balance variable as private.This means they cannot access directly from outside the class.
