@@ -1,4 +1,4 @@
-package PillarsofOOPs;
+package PillarsofOOPsEncapsulation;
 
 //Basic data protection using Encapsulation
 public class Person {
