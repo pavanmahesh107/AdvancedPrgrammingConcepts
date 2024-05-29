@@ -19,12 +19,15 @@ public class Main {
 
         // 2. Simple Validation
 
-        Account account = new Account();
-        account.deposit(1518.0);
-        account.Withdraw(123.0);
-        System.out.println(account.getBalance());
+//        Account account = new Account();
+//        account.deposit(1518.0);
+//        account.Withdraw(123.0);
+//        System.out.println(account.getBalance());
 
 
+        // 3. Read-Only Example
+        ReadonlyExample readonlyExample = new ReadonlyExample(18);
+        System.out.println( readonlyExample.getId());
 
     }
 }
