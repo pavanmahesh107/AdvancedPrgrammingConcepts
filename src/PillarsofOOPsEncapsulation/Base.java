@@ -8,6 +8,7 @@ public class Base {
     private String Secret;
 
     //The base class provides protected getter and setter methods for accessing and modifying the private fields.
+
     //Protected methods are accessible within the Same Package and by subclasses, but not by any other external classes.
     //This allows derived classes to interact with the internal state in a controlled manner.
     protected String getSecret() {

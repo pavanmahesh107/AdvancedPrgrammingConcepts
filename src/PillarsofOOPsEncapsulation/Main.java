@@ -34,13 +34,22 @@ public class Main {
         // hiding them from both external classes and derived classes.
         // This allows the base class to change its internal implementation without affecting the derived classes,
         // as long as the protected methods' interface remains consistent.
+
 //        Derived derived = new Derived();
 //        derived.setSecret("Encapsulation with Inheritance");
 //        derived.revialSecret();
 
-        Employee employee = new Employee();
-        employee.setSalary(45000.00);
-        System.out.println(employee.getSalary());
+//        // 5. Complex Validation and Business Logic:
+//        Employee employee = new Employee();
+//        employee.setSalary(45000.00);
+//        System.out.println(employee.getSalary());
+
+        ImmutableClass immutableClass = new ImmutableClass("Pavan", 24);
+        ImmutableClass immutableClass1 = new ImmutableClass("Rupa",23);
+        System.out.println(immutableClass.getName()+" "+immutableClass.getAge());
+        System.out.println(immutableClass1.getName()+" "+immutableClass1.getAge());
+//        System.out.println(immutableClass.getAge());
+//        System.out.println(immutableClass1.getAge());
 
     }
 }
