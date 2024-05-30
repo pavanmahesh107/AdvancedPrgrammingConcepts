@@ -15,7 +15,6 @@ public class ReadonlyExample {
         this.id = id;
     }
 
-    //Public getter methods
     //Public getter methods are provided to allow read access to the private fields.
     // These methods enable other classes to view the state of the object without modifying it.
 

@@ -1,5 +1,6 @@
 package PillarsofOOPsEncapsulation;
 
+// 6 . Immutable Object
 public final class ImmutableClass {
 
     //The name, age fields are declared private, this means that they cannot be accessed or modified directly from

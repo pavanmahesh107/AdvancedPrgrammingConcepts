@@ -44,12 +44,18 @@ public class Main {
 //        employee.setSalary(45000.00);
 //        System.out.println(employee.getSalary());
 
-        ImmutableClass immutableClass = new ImmutableClass("Pavan", 24);
-        ImmutableClass immutableClass1 = new ImmutableClass("Rupa",23);
-        System.out.println(immutableClass.getName()+" "+immutableClass.getAge());
-        System.out.println(immutableClass1.getName()+" "+immutableClass1.getAge());
+
+          // 6 . Immutable Object
+//        ImmutableClass immutableClass = new ImmutableClass("Pavan", 24);
+//        ImmutableClass immutableClass1 = new ImmutableClass("Rupa",23);
+//        System.out.println(immutableClass.getName()+" "+immutableClass.getAge());
+//        System.out.println(immutableClass1.getName()+" "+immutableClass1.getAge());
 //        System.out.println(immutableClass.getAge());
 //        System.out.println(immutableClass1.getAge());
+
+        // 7 . Encapsulation in Multi-threaded Environments
+        ThreadSafeCounter threadSafeCounter =new ThreadSafeCounter();
+        System.out.println(threadSafeCounter.getCount());
 
     }
 }
